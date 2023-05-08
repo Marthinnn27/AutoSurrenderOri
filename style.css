@@ -1,0 +1,295 @@
+:root {
+    --primary: #e41414;
+    --bg: #fffffffa;
+}
+
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color:var(--bg);
+    color: #fff;
+    height: 100%;
+    margin: 0;
+
+
+}
+
+/* navbar */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1,4rem 7%;
+    background-color: #ee4f4f;
+    border-bottom: 1px solid #513c28;
+    position: fixed;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 100px;
+    padding-left: 35px;
+    top: o;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+.navbar .navbar-logo {
+    font-size: 2rem;
+    font-weight: 700;;
+    color: #fff;
+    font-style: italic;
+
+}
+
+.navbar .navbar-nav {
+
+    color: var(--bg);
+    display: inline-block;
+    font-size: 1.3rem;
+    margin: 0 1rem;
+}
+.navbar .navbar-nav a:hover {
+    color:var(--primary)
+
+}
+
+.navbar .navbar-extra a {
+    color: #fff;
+    margin: 0 0,5rem;
+    
+}
+.navbar .navbar-extra a:hover {
+  color: var(--primary);
+    
+}
+
+.image img {
+    position: relative;
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+  .word {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
+    position: absolute;
+    bottom: 40%;
+    left: 8%;
+  }
+  .word h1 {
+    font-size: 60px;
+    font-weight: 400;
+    font-size: 87px;
+    line-height: 144px;
+    color: #AA0000;  }
+    
+    .word h1 span {
+        color: #571818;
+    }
+  .word h3 {
+    margin: 20px 0 20px;
+    font-family: 'Bebas neue', cursive;
+  }
+
+  .Discover{
+    display: inline-block;
+    position: relative;
+    padding: 12px 70px;
+    font-size: 28px;
+    font-family: 'Bebas Neue', cursive;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: black;
+    text-align: center;
+    border-radius: 8px;
+  }
+  .Discover:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+  }
+  .image2 img {
+    background-image: url("/image/Rectangle 8.png");
+    position: relative;
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+  .text {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
+    position: absolute;
+    bottom: 40%;
+    left: 8%;
+  }
+ 
+  .text h2 {
+    position: absolute;
+    font-family: 'Sansation';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+    display: flex;
+    color: #090909;
+  }
+
+  .recom {
+    font-family: 'Bebas Neue', cursive;
+    justify-content: center;
+    text-align: center;
+    font-size: 24px;
+    color: #ee4f4f;
+
+  }
+
+  .location-content{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.col-content{
+    position: relative;
+    filter:brightness(95%);
+    transition: all 0.3s cubic-bezier(0.445,0.05,0.55,0.95);
+
+}
+
+.col-content img{
+    margin-bottom: 40px;
+    height: 500px;
+    border-radius: 27px;
+    width: 100%;
+    
+}
+
+.col-content h5{
+    position: absolute;
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+    left: 20px;
+    bottom: 105px;
+    cursor: pointer;
+}
+
+.col-content p{
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    left: 20px;
+    bottom: 80px;
+    cursor: pointer;
+}
+
+.col-content:hover{
+    filter: brightness(120%);
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+/* Footer */
+
+.footer{
+  margin-top: 80px;
+  background-color:  #D9D9D9;
+}
+
+.foot{
+  padding: 20px 0;
+}
+
+.footer-content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+
+.footlinks h4{
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  color:#000000;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+
+.footlinks h4::before{
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 70px;
+  left: 0;
+  bottom: -7px;
+  background:  #000000;
+}
+
+.footlinks ul li{
+  margin-bottom: 15px;
+}
+
+.footlinks ul li a{
+  font-size: 17px;
+  color: #000000;
+  display: block;
+  transition: ease 0.30s;
+}
+
+.footlinks ul li a:hover{
+  transform: translate(6px);
+  color: white;
+}
+
+.japanmtsuri {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.social a{
+  font-size: 25px;
+  margin: 4px;
+  height: 40px;
+  width: 40px;
+  color: rgb(21, 74, 74);
+  background-color: white;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  transition: ease 0.30s;
+}
+
+.social a:hover{
+  transform: scale(1.2);
+}
+
+.end{
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 12px;
+}
+
+.end p{
+  font-size: 15px;
+  color: white;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+  
