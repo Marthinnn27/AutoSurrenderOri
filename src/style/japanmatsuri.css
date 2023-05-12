@@ -1,0 +1,105 @@
+.NavigationBar {
+  height: 100vh;
+  background: url("../assets/images/bg/manuel-cosentino-n--CMLApjfI-unsplash.jpg");
+  background-size: cover;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1,4rem 7%;
+  background-color: #ee4f4f;
+  border-bottom: 1px solid #513c28;
+  position: fixed;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 100px;
+  padding-left: 35px;
+  top: o;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.navbar .navbar-logo {
+  font-size: 2rem;
+  font-weight: 700;;
+  color: #fff;
+  font-style: italic;
+
+}
+
+.navbar .navbar-nav {
+
+  color: var(--bg);
+  display: inline-block;
+  font-size: 1.3rem;
+  margin: 0 1rem;
+}
+
+.navbar .navbar-nav a {
+  color: #fff; 
+  display: inline-block;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.7rem;
+  margin: 0 1rem;
+  padding: 0.5rem; 
+}
+.intro {
+  height: 300px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+
+}
+
+.title {
+  color: rgba(255, 0, 0, 0.818);
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1;
+  text-shadow: 2px 2px black;
+  letter-spacing: 4px;
+}
+
+.titleh2{
+  font-size: 2.5rem;
+  font-weight: 750;
+  line-height: 1;
+  text-shadow: 2px 2px black;
+  letter-spacing: 4px;
+}
+
+.trending {
+  height: auto;
+  background: white;
+  background-size: cover;
+}
+
+.aboutus {
+  height: auto;
+  background: url("../assets/images/bg/jmbg2.jpg");
+  background-size: cover;
+}
+
+.profile {
+  text-align: center;
+  color:black;
+}
+
+.Wrapper {
+  height: auto;
+}
+
+.Image {
+  height: auto;
+  background-color: black;
+  margin: 5px;
+  padding: 5px;
+}
+
+.images {
+  height: 500px;
+}
