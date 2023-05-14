@@ -56,6 +56,8 @@
 }
 
 .title {
+  text-align: center;
+  justify-content: center;
   color: rgba(255, 0, 0, 0.818);
   font-size: 3rem;
   font-weight: 800;
@@ -76,6 +78,14 @@
   height: auto;
   background: white;
   background-size: cover;
+}
+
+.recom {
+  font-weight: 800;
+  justify-content: center;
+  text-align: center;
+  font-size: 36px;
+  color: #ee4f4f;
 }
 
 .aboutus {
@@ -102,4 +112,130 @@
 
 .images {
   height: 500px;
+}
+
+.footer{
+  margin-top: 80px;
+  background-color:  #D9D9D9;
+}
+
+.foot{
+  padding: 20px 0;
+}
+
+.footer-content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+
+.footlinks h4{
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  color:#000000;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+
+.footlinks h4::before{
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 70px;
+  left: 0;
+  bottom: -7px;
+  background:  #000000;
+}
+
+.footlinks ul li{
+  margin-bottom: 15px;
+}
+
+.footlinks ul li a{
+  font-size: 17px;
+  color: #000000;
+  display: block;
+  transition: ease 0.30s;
+}
+
+.end{
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 12px;
+}
+
+.social a{
+  font-size: 25px;
+  margin: 4px;
+  height: 40px;
+  width: 40px;
+  color: rgb(21, 74, 74);
+  background-color: white;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  transition: ease 0.30s;
+}
+.aboutbody{
+  background-color: #191919;
+}
+
+.about{
+  width: 100%;
+  padding: 78px 0px;
+}
+
+.about img{
+  height: auto;
+  width: 400px;
+}
+
+.abt-text{
+  width: 500px;
+}
+
+.abt-text h1{
+  font-size: 60px;
+  color: #000000;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.abt-text h1 span{
+  color: #ee4f4f;
+  letter-spacing: 1px;
+}
+
+.abt-text p{
+  color: #000000;
+  font-size: 24px;
+  margin-bottom: 45px;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+
+.main{
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.connectbtn{
+  display: inline-block;
+  background-color: #ee4f4f;
+  font-size: 18px;
+  color: #000000;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+  transition: ease 0.4s;
+  border: 2px solid transparent;
+  letter-spacing: 1px;
 }

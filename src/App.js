@@ -1,28 +1,25 @@
-import "./App.css"
-import NavigationBar from "./components/NavigationBar"
-import Intro from "./components/Intro"
-import Trending from "./components/Trending"
-import AboutUs from "./components/AboutUs"
+import "../App.css"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import NavigationBar from "../components/NavigationBar";
+import MainPage from "../src/pages/mainpage"
+import ToursPage from "../src/pages/tourspage"
+import AboutUs from "../src/pages/aboutuspage"
+import "../style/japanmatsuri.css"
 
-import "./style/japanmatsuri.css"
 
-function App() {
+const App= () =>  {
   return (
     <div>
-      <div className="NavigationBar">
-        <NavigationBar />
-        <Intro />
-      </div>
-
-      <div className="trending">
-        <Trending />
-      </div>
-
-      <div className="aboutus">
-        <AboutUs />
-      </div>
-    </div>
-  )
+    <Router>
+    <Routes>
+      <Route path="/" element={<MainPage />} />
+      <Route path="/tourspage" element={<ToursPage />} />
+      <Route path="/aboutus" element={<AboutUs />} />
+    </Routes>
+  </Router>
+  </div>
+  
+);
 }
 
 export default App
