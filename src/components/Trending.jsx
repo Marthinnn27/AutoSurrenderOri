@@ -24,7 +24,7 @@ const Trending = () => {
                     Tokyo City
                   </Card.Text>
                   <Card.Text className="text-left">
-                    Rated 4,5/5
+                  ⭐⭐⭐⭐⭐
                   </Card.Text>
                 </div>
               </div>
@@ -46,7 +46,7 @@ const Trending = () => {
                     Tokyo City
                   </Card.Text>
                   <Card.Text className="text-left">
-                    Rated 4,5/5
+                  ⭐⭐⭐⭐⭐
                   </Card.Text>
                 </div>
               </div>
@@ -59,10 +59,10 @@ const Trending = () => {
                 <div className="p-2 m-1 text-white">
                   <Card.Title className="text-center">Osaka Palace</Card.Title>
                   <Card.Text className="text-left">
-                    Tokyo City
+                    Osaka
                   </Card.Text>
                   <Card.Text className="text-left">
-                    Rated 4,5/5
+                  ⭐⭐⭐⭐
                   </Card.Text>
                 </div>
               </div>
@@ -78,7 +78,7 @@ const Trending = () => {
                     Osaka
                   </Card.Text>
                   <Card.Text className="text-left">
-                    Rated 4,5/5
+                  ⭐⭐⭐⭐
                   </Card.Text>
                 </div>
               </div>
@@ -98,7 +98,7 @@ const Trending = () => {
                     Kyoto
                   </Card.Text>
                   <Card.Text className="text-left">
-                    Rated 4,5/5
+                  ⭐⭐⭐⭐
                   </Card.Text>
                 </div>
               </div>
@@ -114,7 +114,7 @@ const Trending = () => {
                     Tokyo City
                   </Card.Text>
                   <Card.Text className="text-left">
-                    Rated 4,5/5
+                  ⭐⭐⭐⭐⭐
                   </Card.Text>
                 </div>
               </div>
